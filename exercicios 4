@@ -1,0 +1,34 @@
+Antes de começar, crie 3 variáveis: a, b e c. Atribua os
+valores true, false e true, respectivamente
+a= true b = false c = true
+
+
+1. Realize a operação: a || b
+const a = true
+const b = false
+const c = true
+
+console.log (a || b);
+node operaçoes.js = true
+
+2. Realize a operação: b || c
+const a = true
+const b = false
+const c = true
+
+console.log (b || c);
+node operaçoes.js = true
+3. Realize a operação: a || c
+const a = true
+const b = false
+const c = true
+
+console.log (a || c);
+node operaçoes.js = true
+4. Realize a operação: a || b || c
+const a = true
+const b = false
+const c = true
+
+console.log (a || b || c);
+node operaçoes.js = true 
