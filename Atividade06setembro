@@ -1,0 +1,9 @@
+crie um programa que peça a um usuário 2 números e mostre a soma;
+const a = prompt("digite um número de 1 a 100");
+let A = Number(a)
+const b = prompt("digite um número de 1 a 50");
+let B = Number(b)
+
+console.log("soma", A + B);
+
+Crie uma soma que diga se um número é impar ou par com true ou false;
