@@ -5,5 +5,20 @@ const b = prompt("digite um número de 1 a 50");
 let B = Number(b)
 
 console.log("soma", A + B);
-
+-----------------------------------------------------------------------------------
 Crie uma soma que diga se um número é impar ou par com true ou false;
+const a = prompt("digite um número inteiro:");
+const b = a % 2
+
+console.log("seu número é par?", b === 0 );
+console.log("seu número é impar?", b !== 0 );
+-----------------------------------------------------------------------------------
+Um programa que calcule o valor vezes ele mesmo;
+const a = prompt("digite um número de 1 a 100");
+let A = Number(a)
+const b = prompt("digite um número de 1 a 50");
+let B = Number(b)
+
+
+console.log("seu primeiro número multiplicado por ele mesmo é", A*A);
+console.log("seu segundo número multiplicado por ele mesmo é", B*B);
